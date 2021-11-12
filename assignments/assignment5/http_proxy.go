@@ -70,7 +70,8 @@
 	 // Program Name is always the first (implicit) argument
 	 cmd := os.Args[0]
 	 port := os.Args[1]
-	
+	 
+	 fmt.Println("this is to test the repo")
 	 fmt.Println("Starting server")
 	 startServer(port)
   
